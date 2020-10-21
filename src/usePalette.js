@@ -17,11 +17,16 @@ import red from "@material-ui/core/colors/red";
 import teal from "@material-ui/core/colors/teal";
 import yellow from "@material-ui/core/colors/yellow";
 
-export const PaletteContext = createContext({
-  primary: "teal",
-  secondary: "teal",
-  type: "light"
-});
+export const PaletteContext = createContext([
+  {
+    primary: "teal",
+    secondary: "teal",
+    type: "light"
+  },
+  () => {},
+  () => {},
+  () => {}
+]);
 
 export function usePalette() {
   return useContext(PaletteContext);

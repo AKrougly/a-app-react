@@ -20,7 +20,7 @@ import Header from "../Header";
 import Content from "../Content";
 import BackIconButton from "../BackIconButton";
 
-import { usePalette, str2color } from "../usePalette";
+import { usePalette, str2color } from "../../usePalette";
 
 function Component() {
   const [
@@ -29,6 +29,7 @@ function Component() {
     setSecondary,
     setType
   ] = usePalette();
+
   const [open, setOpen] = useState(false);
 
   const handleToggleTheme = () => setType(type === "light" ? "dark" : "light");

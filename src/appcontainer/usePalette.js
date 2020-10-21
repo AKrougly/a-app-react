@@ -1,3 +1,5 @@
+// TODO: This file is no loger needed
+
 import { createContext, useContext } from "react";
 
 import amber from "@material-ui/core/colors/amber";
@@ -17,7 +19,7 @@ import red from "@material-ui/core/colors/red";
 import teal from "@material-ui/core/colors/teal";
 import yellow from "@material-ui/core/colors/yellow";
 
-const PaletteContext = createContext({
+export const PaletteContext = createContext({
   primary: "teal",
   secondary: "teal",
   type: "light"
