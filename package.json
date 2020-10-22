@@ -1,7 +1,7 @@
 {
-  "name": "demosaur",
+  "name": "a-app-react",
   "version": "1.1.0",
-  "homepage": "/demosaur",
+  "homepage": "/a-app-react",
   "private": true,
   "dependencies": {
     "@material-ui/core": "^4.11.0",
